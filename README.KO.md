@@ -1,6 +1,6 @@
 # Punkpoll-vote-sytem
 
-미나 블록체인 기반의 펑크폴 투표 시스템
+펑크폴 투표 시스템은 미나 블록체인을 기반으로 하고 있습니다.
 
 Poc 형태의 zk-PUNK-nft를 발행하여, 사용자에게 발행된 zk-PUNK-nft를 투표 대상의 wallet으로 전송하는 방식의 투표 시스템
 # System 구성도
