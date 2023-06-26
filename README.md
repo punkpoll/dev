@@ -1,6 +1,6 @@
 # Punkpoll-vote-sytem
 
-Mina blockchain based PunkPoll voting system.
+The Punkpoll voting system is based on the Mina blockchain.
 
 A voting system which issues zk-PUNK-nft in the form of PoC, and sends the issued zk-PUNK-nft to the voting target's wallet.
 # System Diagram
