@@ -4,7 +4,7 @@ Mina blockchain based PunkPoll voting system.
 
 A voting system which issues zk-PUNK-nft in the form of PoC, and sends the issued zk-PUNK-nft to the voting target's wallet.
 # System Diagram
-![punkpoll_vote_eng](https://github.com/bigcloud0403/Punkpoll-vote-sytem/assets/3859733/2df86773-fb1c-4b93-8a6d-5a5027f53555)
+![punkpoll_vote_eng](https://github.com/punkpoll/dev/assets/137742109/c851827e-fd49-4190-af8c-ed870aa309f9)
 
 # Terminology
 * Sequential Rollup
@@ -16,7 +16,7 @@ A voting system which issues zk-PUNK-nft in the form of PoC, and sends the issue
 
 # User Authentication & zk-PUNK-nft Issuance, PUNK Token Minting
 # Authentication Issuance Diagram
-![auth_mint_zk-punk-nft_punkToken_eng](https://github.com/bigcloud0403/Punkpoll-vote-sytem/assets/3859733/02d55ed0-0dc6-410b-9358-b817e7cfc502)
+![auth_mint_zk-punk-nft_punkToken_eng](https://github.com/punkpoll/dev/assets/137742109/5f2ae001-1801-49f8-8106-e7aac5a5a6e6)
 
 # Authentication Issuance Order
 PUNK Tokens are minted through user authentication.
@@ -45,7 +45,7 @@ Procedure for issuing zk-PUNK-nft and PUNK for users who have authenticated with
 
 # Voting/Survey Distribution
 # Voting/Survey Distribution Diagram
-![deploy_eng](https://github.com/bigcloud0403/Punkpoll-vote-sytem/assets/3859733/8b957d54-3c8c-45c1-87de-0ff52bbdcd2c)
+![deploy_eng](https://github.com/punkpoll/dev/assets/137742109/f355bb6b-0014-4b98-8600-396f9da4795a)
 
 # Voting/Survey Distribution Procedure
 The voting/survey created by the builder is deployed on the mina blockchain.
@@ -62,7 +62,7 @@ The voting/survey created by the builder is deployed on the mina blockchain.
 
 # Voting/Survey Participation
 # Voting/Survey Participation Diagram
-![voting_eng](https://github.com/bigcloud0403/Punkpoll-vote-sytem/assets/3859733/6a835106-094b-452d-ad7a-6bb5e8ed1381)
+![voting_eng](https://github.com/punkpoll/dev/assets/137742109/576fda38-84cc-4242-a8d7-427f4867e634)
 
 # Voting/Survey Participation Procedure
 Users participate in the voting/survey through the chatbot and submit the final participation information.
