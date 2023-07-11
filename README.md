@@ -4,7 +4,7 @@ The Punkpoll voting system is based on the Mina blockchain.
 
 A voting system which issues zk-PUNK-nft in the form of PoC, and sends the issued zk-PUNK-nft to the voting target's wallet.
 # System Diagram
-![punkpoll_vote_eng](https://github.com/punkpoll/dev/assets/137742109/c851827e-fd49-4190-af8c-ed870aa309f9)
+![punkpoll_vote_eng ver 2 0](https://github.com/punkpoll/dev/assets/137742109/4970cba3-ac6c-4ce9-88e4-9bd895424f61)
 
 # Terminology
 * Sequential Rollup
@@ -16,15 +16,12 @@ A voting system which issues zk-PUNK-nft in the form of PoC, and sends the issue
 
 # User Authentication & zk-PUNK-nft Issuance, PUNK Token Minting
 # Authentication Issuance Diagram
-![auth_mint_zk-punk-nft_punkToken_eng](https://github.com/punkpoll/dev/assets/137742109/5f2ae001-1801-49f8-8106-e7aac5a5a6e6)
+![auth_mint_zk-punk-nft_punkToken_eng ver 0 2](https://github.com/punkpoll/dev/assets/137742109/a6185b4e-41d5-4d40-90fc-775189da3cfd)
 
 # Authentication Issuance Order
 PUNK Tokens are minted through user authentication.
 Procedure for issuing zk-PUNK-nft and PUNK for users who have authenticated with Kakao:
-1. Allocate one account from the pre-created Mina Account Pool to the user
-  - It takes 3 minutes to activate when creating a Mina Account in real time
-  - To resolve this, we operate an account pool by creating 10,000 accounts in advance
-  - When a new user is authenticated, one account is taken from the account pool and a new mina account is added to the account pool
+1. Generate Mina Account
 2. Upload authenticated user information as json data to ipfs
 3. Create anonymous user information
    - In the Punkpoll voting system, users are anonymized and registered in the MerkleMap, so only the user themselves can know that their information is registered.
