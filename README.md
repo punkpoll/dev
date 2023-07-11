@@ -21,7 +21,7 @@ A voting system which issues zk-PUNK-nft in the form of PoC, and sends the issue
 # Authentication Issuance Order
 PUNK Tokens are minted through user authentication.
 Procedure for issuing zk-PUNK-nft and PUNK for users who have authenticated with Kakao:
-1. Generate Mina Account
+1. Generate Mina Account (Changed from using Account Pool to direct creation on July 11, 2023)
 2. Create anonymous user information
    - In the Punkpoll voting system, users are anonymized and registered in the MerkleMap, so only the user themselves can know that their information is registered.
 3. Upload authenticated user information as json data to ipfs
