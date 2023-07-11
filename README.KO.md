@@ -21,10 +21,7 @@ Poc 형태의 zk-PUNK-nft를 발행하여, 사용자에게 발행된 zk-PUNK-nft
 # 인증 발행 순서
 PUNK Token은 사용자 인증을 통해서 mint된다.
 카카오 인증을 한 사용자 zk-PUNK-nft, PUNK 발행 절차
-1. 미리 생성 해 놓은 Mina Account Pool에서 1개의 계정을 가져와 사용자에게 할당
-  - Mina Account를 실시간으로 생성할 경우, 활성화까지 3분의 시간이 소요
-  - 이를 해결하기 위해 10,000개의 account를 미리 생성해서 account pool운영
-  - 새로운 사용자가 인증을 하면 account pool에서 1개의 account를 가져오고, account pool에 새로운 mina account 추가
+1. Mina Account 생성
 2. 사용자 익명정보 생성
    - Punkpoll 투표 시스템에서는 사용자가 익명화되어, MerkleMap에 등록되므로, 본인만이 자신의 정보가 등록되어 있는지를 알 수 있다. 
 3. 인증된 사용자 정보 json data로 ipfs 업로드
