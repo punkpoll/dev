@@ -4,7 +4,7 @@
 
 Poc 형태의 zk-PUNK-nft를 발행하여, 사용자에게 발행된 zk-PUNK-nft를 투표 대상의 wallet으로 전송하는 방식의 투표 시스템
 # System 구성도
-![punkpoll_vote_ko](https://github.com/punkpoll/dev/assets/137742109/7a4b6a3a-a87e-4f12-ac0f-71707b43befe)
+![punkpoll_vote_ko ver 0 2](https://github.com/punkpoll/dev/assets/137742109/57d16062-0fe5-414b-9b70-86bc79d16a05)
 
 # 용어설명
 * 순차적 Rollup
@@ -16,7 +16,7 @@ Poc 형태의 zk-PUNK-nft를 발행하여, 사용자에게 발행된 zk-PUNK-nft
 
 # 사용자 인증 & zk-PUNK-nft 발행, PUNK Token mint
 # 인증 발행 구성도
-![auth_mint_zk-punk-nft_punkToken_ko](https://github.com/punkpoll/dev/assets/137742109/ef0bf813-6692-4a6c-93c9-158b5271821e)
+![auth_mint_zk-punk-nft_punkToken_ko ver 0 2](https://github.com/punkpoll/dev/assets/137742109/35d69315-60bc-4027-8ba7-4bb7fdd00257)
 
 # 인증 발행 순서
 PUNK Token은 사용자 인증을 통해서 mint된다.
@@ -25,9 +25,9 @@ PUNK Token은 사용자 인증을 통해서 mint된다.
   - Mina Account를 실시간으로 생성할 경우, 활성화까지 3분의 시간이 소요
   - 이를 해결하기 위해 10,000개의 account를 미리 생성해서 account pool운영
   - 새로운 사용자가 인증을 하면 account pool에서 1개의 account를 가져오고, account pool에 새로운 mina account 추가
-2. 인증된 사용자 정보 json data로 ipfs 업로드
-3. 사용자 익명정보 생성
+2. 사용자 익명정보 생성
    - Punkpoll 투표 시스템에서는 사용자가 익명화되어, MerkleMap에 등록되므로, 본인만이 자신의 정보가 등록되어 있는지를 알 수 있다. 
+3. 인증된 사용자 정보 json data로 ipfs 업로드
 4. ipfs에 업로드 된 기본정보의 CID로 zk-PUNK-nft 발행
   - zk-PUNK-nft 발행 정보는 익명정보-CID 쌍으로 저장된다.
   - zk-PUNK-nft 발행 정보는 해시화 되어, MerkleMap 추가 되고 root hash는 on-chain에 업데이트 된다.
