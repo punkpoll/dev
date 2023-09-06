@@ -31,9 +31,7 @@ export class PunkpollVoteContract extends SmartContract {
 
   @state(PublicKey) oraclePublicKey = State<PublicKey>();
 
-  // EKESCW8fZT2Wm3ZcKoiABfwPNwQQmYTqFxEiR2o21d9pLwjw75Aw
-
-  // Define contract events
+   // Define contract events
   events = {
     verified: Field,
   };
