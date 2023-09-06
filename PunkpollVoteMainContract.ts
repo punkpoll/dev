@@ -74,7 +74,6 @@ export class PunkpollVoteMainContract extends SmartContract {
   @method getVoteDate(): [UInt64, UInt64] {
     this.startDate.assertEquals(this.startDate.get());
     this.endDate.assertEquals(this.endDate.get());
-    //this.resultOpenDate.assertEquals(this.resultOpenDate.get());
 
     return [this.startDate.get(), this.endDate.get()];
   }
@@ -86,12 +85,8 @@ export class PunkpollVoteMainContract extends SmartContract {
     const eDate = this.endDate.get();
     this.endDate.assertEquals(eDate);
 
-    //const rDate = this.resultOpenDate.get();
-    //this.resultOpenDate.assertEquals(rDate);
-
     this.startDate.set(startDate);
     this.endDate.set(endDate);
-    //this.resultOpenDate.set(resultOpenDate);
   }
   
   
