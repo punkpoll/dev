@@ -47,7 +47,7 @@ export class PunkTokenContract extends SmartContract {
     amount: UInt64,
     adminSignature: Signature
   ) {
-
+  // Planning to add information on which user's real-name verification triggers the minting of the asset.
     adminSignature
       .verify(
         this.address,
